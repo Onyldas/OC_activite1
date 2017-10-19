@@ -1,0 +1,33 @@
+@font-face
+{
+	font-family: 'Comic Sans MS',Arial, Helvetica, sans-serif;
+}
+*
+{
+    font-family: 'Comic Sans MS',Arial, Helvetica, sans-serif;
+}
+h1
+{
+	text-align: center;
+}
+h2
+{
+	color: blue;
+	text-decoration: underline;
+}
+body
+{
+    background-image: url('images/wallpaper.jpg');
+}
+#description
+{
+	text-align: center;
+}
+.boite
+{
+	background-image: linear-gradient(90deg, rgba(133,133,133,0.7), rgba(255,255,255,1)) ;
+    margin: 25px 5px 25px 5px; /*marge extérieure(haut, droite, bas, gauche)*/
+    border: 3px solid white;
+    box-shadow: 6px 6px 10px black; /*ombre(horizontale, verticale, fondu, couleur)*/
+    padding: 5px 10px 5px 15px; /*marge intérieure(haut, droite, bas, gauche)*/
+}
